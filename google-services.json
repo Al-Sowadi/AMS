@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "282366884666",
+    "project_id": "annoucement-managment-system",
+    "storage_bucket": "annoucement-managment-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282366884666:android:6e7eb4ba94233644d1ee03",
+        "android_client_info": {
+          "package_name": "com.abdullah.ams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282366884666-3b84rlmmcl8q5pqq4jtn6n06enujndu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9IDkyMgOgTvgWMJdeBjwAOWpY4G9yfeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282366884666-3b84rlmmcl8q5pqq4jtn6n06enujndu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

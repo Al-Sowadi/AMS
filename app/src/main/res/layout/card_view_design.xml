@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/switch_trcks"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="20dp"
+
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleCard"
+
+        android:text="Title"
+
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/swstyle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:minHeight="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/messageCard"
+        android:textColor="@color/black"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/swstyle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:minHeight="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:id="@+id/timeCard"
+        android:textColor="@color/black"
+        android:background="@drawable/swstyle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:minHeight="30dp"
+        />
+
+</LinearLayout>

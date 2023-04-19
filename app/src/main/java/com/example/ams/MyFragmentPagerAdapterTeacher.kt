@@ -1,0 +1,34 @@
+package com.example.ams
+
+import android.content.Context
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
+import com.abdullah.ams.AllNotification
+import com.abdullah.ams.NewNotification
+import com.abdullah.ams.ToTeacherNotification
+import com.abdullah.ams.TodayNotification
+
+class MyFragmentPagerAdapterTeacher(var context: Context,
+                                    fm: FragmentManager,
+                                    var totalTabs: Int
+) :
+    FragmentPagerAdapter(fm) {
+    override fun getItem(position: Int): Fragment {
+        return when (position) {
+            0 -> {
+                NewNotification()
+            }
+            1 -> {
+                ToTeacherNotification()
+            }
+            2 -> {
+                AllNotification()
+            }
+            else -> getItem(position)
+        }
+    }
+    override fun getCount(): Int {
+        return totalTabs
+    }
+}
